@@ -92,3 +92,20 @@ function clickFruitsFramboise(){
 }
 
 fruitsFramboise.addEventListener('click', clickFruitsFramboise);
+
+
+// banane
+
+// const moreBanane = document.querySelector('.moreBanane');
+// const btn = document.querySelector('.btn');
+
+// function clickOverlayBanane() {
+//     moreBanane.classList.toggle('moreDb');
+// }
+
+// function moreDNBanane(){
+//     overlayBanane.classList.remove('overlayClickBanane');
+//     setTimeout(clickOverlayBanane, [400]);
+// }
+
+// btn.addEventListener('click', moreDNBanane);
