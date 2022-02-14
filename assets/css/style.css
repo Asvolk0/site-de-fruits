@@ -8,4 +8,66 @@
 main{
     width: 100%;
     height: 100vh;
+    background:linear-gradient(90deg, rgba(0,0,0,0.7483368347338936) 0%, rgba(5,5,5,0.6558998599439776) 49%, rgba(0,0,0,0.6587009803921569) 100%), url("/assets/img/MicrosoftTeams-image.png");
+    filter: grayscale(50%);
 }
+.menu{
+    position: relative;
+    transform: 1s;
+    width: 100%;
+    display: none;
+}
+#select{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+span{
+    width: 50px;
+    margin: 5px 2px;
+    background-color: black;
+    border: 3px solid black;
+    transition: 0.5s;
+}
+.chaud{
+    width: 100vh;
+    height: 80vh;
+    background-color: red;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 10px;
+}
+
+.open{   
+    position: absolute;
+    background-color: brown;
+    left: 80%;
+    transition: 1s;
+}
+.open span:nth-child(1){
+    display: none;
+
+}
+.open span:nth-child(2){
+    transform: rotate(45deg);
+    position: absolute;
+    top: 15px;
+}
+.open span:nth-child(3){
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 15px;
+}
+@media screen and (max-width: 1300px) {
+    .menu {
+      display:block;
+      
+    }
+  }
